@@ -501,8 +501,8 @@ header{
 }
 
 #fh5co-photos-section, #fh5co-contact-section, 
-#fh5co-services-section, #fh5co-about-section,
-#fh5co-map-section{
+#fh5co-about-section, #fh5co-map-section
+{
 	padding-bottom: 5em;
 }
 #fh5co-intro-section{
@@ -638,41 +638,6 @@ header{
 		letter-spacing: 5px;
 		margin-bottom: 2em;
 		display: block;
-	}
-}
-
-//Services
-.services{
-	position: relative;
-	padding: 30px;
-	padding-top: 90px;
-	margin-top: 60px;
-	background: rgba($brand-white,1);
-	border: 1px solid rgba($brand-black,.1);
-	float: left;
-	width: 100%;
-
-	@media screen and (max-width: $screen-md) {
-		margin-bottom: 60px;
-	}
-	@media screen and (max-width: $screen-xs) {
-		margin-bottom: 30px;
-	}
-	span{
-		// border: 1px solid red;
-		display: block;
-		position: absolute;
-		top: -30px;
-		left: 0;
-		width: 100%;
-		i{
-			font-size: 60px;
-			padding: 30px;
-			color: $brand-primary;
-			background: $brand-white;
-			border: 1px solid rgba($brand-black,.1);
-			@include border-radius(50%);
-		}
 	}
 }
 

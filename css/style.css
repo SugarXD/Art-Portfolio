@@ -433,8 +433,8 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 }
 
 #fh5co-photos-section, #fh5co-contact-section,
-#fh5co-services-section, #fh5co-about-section,
-#fh5co-map-section {
+#fh5co-about-section, #fh5co-map-section 
+{
   padding-bottom: 5em;
 }
 
@@ -571,45 +571,6 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   letter-spacing: 5px;
   margin-bottom: 2em;
   display: block;
-}
-
-.services {
-  position: relative;
-  padding: 30px;
-  padding-top: 90px;
-  margin-top: 60px;
-  background: white;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  float: left;
-  width: 100%;
-}
-@media screen and (max-width: 992px) {
-  .services {
-    margin-bottom: 60px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .services {
-    margin-bottom: 30px;
-  }
-}
-.services span {
-  display: block;
-  position: absolute;
-  top: -30px;
-  left: 0;
-  width: 100%;
-}
-.services span i {
-  font-size: 60px;
-  padding: 30px;
-  color: #FA7E0A;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
 }
 
 #fh5co-about-section .about {
